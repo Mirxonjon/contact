@@ -1,0 +1,34 @@
+.other-section {
+  margin-top: 3rem;
+  min-height: 533px;
+  background: var(--primary);
+  box-shadow: var(--boxShadow);
+  padding: var(--paddingSection);
+  .other-carousel {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .other-title {
+    h1 {
+      color: #fff;
+      font-size: 36px;
+    }
+  }
+  .other-card {
+    width: 319px;
+    height: 318px;
+  }
+  .other-img {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    img {
+      width: 236px;
+      height: 171px;
+    }
+  }
+  #present {
+    bottom: -0.4rem !important;
+    right: 0;
+  }
+}
